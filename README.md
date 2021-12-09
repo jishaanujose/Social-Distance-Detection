@@ -9,7 +9,11 @@ In this study, the deep CNN approach and computer vision techniques are used. In
 # Yolov5
 When it comes to deep learning-based object identification, the YOLO model is one of the state-of-the-art models that has been shown to deliver considerable speed improvements and is suited for real-time applications. The YOLO model was used to detect pedestrians in this study. The YOLO was trained on the COCO dataset, which has 80 labels, including human and pedestrian classifications.
 
+# Methodology
+The pedestrians are detected from the image/video using the pre-trained YOLOv5 model. Convert the image into the 'bird eye view' transformation using cv2 to determine the exact distance between the pedestrians. The distance between the centroids of each bounding box is determined in the transformed view, and if the distance between the centroids is less than a predetermined threshold value, those bounding boxes are colored 'red,' while others are coloured 'green.'
+
 # Tools used
  The model is programmed using python language and uses frameworks such as pandas, numpy, and scikit learn. Pretrained model is taken from
- https://github.com/ultralytics/yolov5.git
+ https://github.com/ultralytics/yolov5.git.
+ 
  The project is employed in Python3.6 in GoogleColab.
