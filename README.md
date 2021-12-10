@@ -17,3 +17,8 @@ The pedestrians are detected from the image/video using the pre-trained YOLOv5 m
  https://github.com/ultralytics/yolov5.git.
  
  The project is employed in Python3.6 in GoogleColab.
+ 
+ # Output video
+ 
+https://user-images.githubusercontent.com/91037105/145519825-85a54e73-6460-40aa-a7fb-393897a7a879.mp4
+
